@@ -15,7 +15,6 @@ Bài 5: cho một chuỗi string nhập từ bàn phím, in ra n số lượng t
 
 Bài 6: nhập vào một chuỗi các từ cách nhau bởi dấu '#' thống kê các từ có trong chuỗi. 
 
-
 # Bài 2. 
 ### Ý tưởng. 
 Cộng tất cả phần tử của mảng rồi chia cho rows*cols tính được phần tử TB, phần tử nào lớn hơn or bằng phần tử TB thì gán = 0.
@@ -27,7 +26,7 @@ Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D.
 ![alt text](images/2.png)
 
 # Bài 3. 
- ### Ý tưởng:
+### Ý tưởng:
  - Dùng thuật toán đệ quy quay lui để thử tất cả trường hợp, sau đó Chọn các phần tử của mảng ban đầu sao cho tổng chúng bằng M cho trước. 
 ### Giải thích code:  
 - khởi tạo rows = 5 và cols = 5, M = 100; 
@@ -54,10 +53,14 @@ Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D.
 	k = 0 không chọn. 
 	k = 1 chọn. 
  ![alt text](images/3.6.png)
-Output.
+### Output.
+
 - Nếu có nhiều cách sẽ in ra tất cả số cách có thể có : 
+
 ![alt text](images/3.7.png)
+
 - Nếu không có trường hợp nào thỏa mãn thì output sẽ in ra. 
+
 ![alt text](images/3.8.png)
 # Bài 4. 
 ### Ý tưởng. 
@@ -93,9 +96,9 @@ arr2D: là mảng output.
 ### Giải thích code.
 - cộng vào đầu và cuối chuỗi dấu '#' đảm bảo ko bị miss từ đầu cuối. 
 - duyệt qua toàn bộ chuỗi tạo biến tmp lưu tạm thời. 
-	+ nếu không gặp dấu # thì cứ cộng chuỗi
-	+ Ngược lại thì kiểm tra chuỗi tmp không rổng. 
-		Ném vào dict. Kiểm tra từ đó đã có trong dict chưa gán với value tương ứng. Nếu chưa có thì value = 0, ngược lại value hiện tại + 1.  
-	+  in ra dict là output cần tìm. 
+	+ Nếu không gặp dấu # thì cứ cộng chuỗi
+	+ Ngược lại thì kiểm tra chuỗi tmp không rỗng, Ném vào dict. Kiểm tra từ đó đã có trong dict haychưa gán với value tương ứng. 
+	+ Nếu chưa có thì value = 0, ngược lại gán value + 1.  
+	+ In ra dict là output cần tìm. 
 ![image code](images/6.png)
 ### End. 
