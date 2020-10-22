@@ -15,7 +15,7 @@ Bài 2: Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D.
 	duyệt qua toàn bộ mảng tính tổng các giá trị của mảng lưu vào biến avg. 
 - lấy biến avg chia cho tổng phần tử của mảng. 
 - Duyệt qua toàn bộ mảng nếu phần tử nào lớn hơn avg thì gán = 0. Ngược lại giữ nguyên. 
- ![](image/2.png)
+ ![code](JavaSubjects/image/2.png)
 
 Bài 3: 
  Ý tưởng : chọn các phần tử của mảng ban đầu sao cho tổng chúng bằng M cho trước. 
