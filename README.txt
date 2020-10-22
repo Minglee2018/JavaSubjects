@@ -1,5 +1,5 @@
 1. You must install git base for win, ubuntu or macos you used. 
-2. Open your terminal then type: git clone https://github.com/Minglee2018/Java_subjects-.git 
+2. Open your terminal then type: git clone https://github.com/Minglee2018/JavaSubjects.git 
 3. hope you like it. If you have any problem lets pull issues for me. Thank you!. 
 
 Đề bài: 
