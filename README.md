@@ -1,17 +1,18 @@
-# JavaSubjects
+# Introduction. 
 1. You must install git base for win, ubuntu or macos you used. 
 2. Open your terminal then type: git clone https://github.com/Minglee2018/JavaSubjects.git 
 3. hope you like it. If you have any problem lets pull issues for me. Thank you!. 
-
-Đề bài: 
-⦁	Bài 2:  lọc ra các phần tử của mảng mà có giá trị nhỏ hơn giá trị trung bình của nó (lọc thông thấp trong xử lý ảnh)
+# Example
+⦁	Bài 1: bỏ.
+⦁ 	Bài 2:  lọc ra các phần tử của mảng mà có giá trị nhỏ hơn giá trị trung bình của nó (lọc thông thấp trong xử lý ảnh)
 ⦁	Bài 3: cho mảng 2 chiều với kích thước m, n bất kì. Tìm tập hợp của tất cả các mảng 2 chiều từ mảng ban đầu mà có tổng giá trị bằng 1 giá trị m nào đó cho trước
 ⦁	Bài 4: cho 1 mảng bất kì hãy sắp xếp tại 1 cột nào đó theo thứ tự tăng dần hoặc giảm dần nhưng phải đảm bảo tịnh tiến giá trị theo dòng tương ứng. 
 ⦁	Bài 5: cho một chuỗi string nhập từ bàn phím, in ra n số lượng từ trong chuỗi nhập vào, với n nhập từ bàn phím. Nếu n nhỏ hơn số từ trong chuỗi thì in thêm "....". 
 ⦁	Bài 6: nhập vào một chuỗi các từ cách nhau bởi dấu '#' thống kê các từ có trong chuỗi. 
 
 
-Bài 2: Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D. 
+# Bài 2. 
+Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D. 
 - phần code chỗ implement programs: 
 	duyệt qua toàn bộ mảng tính tổng các giá trị của mảng lưu vào biến avg. 
 - lấy biến avg chia cho tổng phần tử của mảng. 
@@ -19,7 +20,7 @@ Bài 2: Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D.
 
 ![alt text](image/2.png)
 
-Bài 3: 
+# Bài 3. 
  Ý tưởng : chọn các phần tử của mảng ban đầu sao cho tổng chúng bằng M cho trước. 
 Dùng thuật toán quay lui thử tất cả trường hợp. 
 Giải thích code:  
@@ -52,7 +53,7 @@ Nếu có nhiều cách sẽ in ra tất cả số cách có thể có :
  ![](image/3.7.png)
 Nếu không có trường hợp nào thỏa mãn thì output sẽ in ra. 
  ![](image/3.8.png)
-Bài 4: 
+# Bài 4. 
 Ý tưởng : tìm ra cột cần sort lưu riêng ra 2 mảng giá trị và mảng index. 
 trong quá trình sort sẽ sort cả giá trị và index. 
 sau đó từ mảng index lấy ra các hàng tương ứng lưu vào một ma trận mới. 
@@ -67,12 +68,12 @@ arr2D: là mảng output.
 - lưu mảng mới theo giá trị mảng vị trí đã sắp xếp. 
 ![](image/4.png)
  
-Bài 5: 
+# Bài 5. 
 Ý tưởng + giải thích code: 
 Chuẩn hóa chuỗi nhập vào. Đếm dấu cách chính là đếm số từ hiện có. Nếu số từ cần đếm bằng với số n thì ko lấy nữa. 
 Nếu trong chuỗi vẫn còn từ thì gán biến oke=True. Kiểm tra biến oke=True thì cộng thêm phần "....". Ngược lại thì ko làm gì cả. 
  ![](image/5.png)
-Bài 6: 
+# Bài 6. 
 Ý tưởng: tạo ra một cái dictionary rồi lưu key là từ trong chuỗi còn value là số lần lặp lại, rồi sau đó in ra. 
 Giải thích code:
 - cộng vào đầu và cuối chuỗi dấu '#' đảm bảo ko bị miss từ đầu cuối. 
