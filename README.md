@@ -24,7 +24,7 @@ Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D.
 - phần code chỗ implement programs. Duyệt qua toàn bộ mảng tính tổng các giá trị của mảng lưu vào biến avg. 
 - lấy biến avg chia cho tổng phần tử của mảng. 
 - Duyệt qua toàn bộ mảng nếu phần tử nào lớn hơn avg thì gán = 0. Ngược lại giữ nguyên. 
-![alt text](image/2.png)
+![alt text](images/2.png)
 
 # Bài 3. 
  ### Ý tưởng:
@@ -34,16 +34,16 @@ Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D.
 - khởi tạo 2 mảng: 
 	+ mảng arr2D là mảng sinh ngẫu nhiên các giá trị từ 0->100.
 	+ mảng markArrays mảng chứa các phần tử 0 có cùng kích thước với mảng arr2D	
- ![alt text](https://github.com/Minglee2018/JavaSubjects/blob/master/image/3.1.png?raw=true)
+ ![alt text](images/3.1.png)
 - Thực thi chương trình hàm solve.
 Để cho đơn giản sẽ khởi tạo các biến trên là biến toàn cục (truy cập trong phạm vi toàn class). 
- ![](image/3.2.png)
+ ![alt text](images/3.2.png)
 - Phần code sinh dữ liệu cho mảng arr2D các giá trị từ 0 đến 100. 
- ![](image/3.3.png)
+ ![alt text](images/3.3.png)
 - Sinh dữ liệu cho mảng đánh dấu markArrays là các phần tử 0. 
- ![](image/3.4.png)
+![alt text](images/3.4.png)
 - Tính tổng các phần tử trong mảng được đánh dấu là 1. 
- ![](image/3.5.png)
+ ![alt text](images/3.5.png)
 - Phần code chọn ngẫu nhiên các phần tử trong mảng ban đầu. 
 - kiểm tra hàm check có tổng bằng giá trị M cho trước. 
 	+ nếu bằng  thì in ra mảng đó rồi return để dừng việc gọi đệ quy. 
@@ -53,12 +53,12 @@ Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D.
 - Vòng for ở trong nghĩa là: 
 	k = 0 không chọn. 
 	k = 1 chọn. 
- ![](image/3.6.png)
+ ![alt text](images/3.6.png)
 Output.
 - Nếu có nhiều cách sẽ in ra tất cả số cách có thể có : 
- ![](image/3.7.png)
+![alt text](images/3.7.png)
 - Nếu không có trường hợp nào thỏa mãn thì output sẽ in ra. 
- ![](image/3.8.png)
+![alt text](images/3.8.png)
 # Bài 4. 
 ### Ý tưởng. 
 - Tìm ra cột cần sort lưu riêng ra 2 mảng giá trị và mảng index. 
@@ -78,7 +78,7 @@ arr2D: là mảng output.
 - Lấy ra giá trị và vị trí cột cần sắp xếp lưu vào 2 mảng arr và arrIndex. 
 - sort cả 2 mảng đó. 
 - lưu mảng mới theo giá trị mảng vị trí đã sắp xếp. 
-![](image/4.png)
+![image code](images/4.png)
  
 # Bài 5. 
 ### Ý tưởng.
@@ -86,7 +86,7 @@ arr2D: là mảng output.
 ### Giải thích code.
 - Chuẩn hóa chuỗi nhập vào. Đếm dấu cách chính là đếm số từ hiện có. Nếu số từ cần đếm bằng với số n thì ko lấy nữa. 
 - Nếu trong chuỗi vẫn còn từ thì gán biến oke=True. Kiểm tra biến oke=True thì cộng thêm phần "....". Ngược lại thì ko làm gì cả. 
- ![](image/5.png)
+ ![image code](images/5.png)
 # Bài 6. 
 ### Ý tưởng. 
 - Sử dụng dictionary của Java để xử lý bài toán. Với KEY là word và VALUE là số lần lặp lại của word đó.
@@ -97,4 +97,5 @@ arr2D: là mảng output.
 	+ Ngược lại thì kiểm tra chuỗi tmp không rổng. 
 		Ném vào dict. Kiểm tra từ đó đã có trong dict chưa gán với value tương ứng. Nếu chưa có thì value = 0, ngược lại value hiện tại + 1.  
 	+  in ra dict là output cần tìm. 
-![](image/6.png)
+![image code](images/6.png)
+### End. 
