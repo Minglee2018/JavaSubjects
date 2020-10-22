@@ -15,7 +15,8 @@ Bài 2: Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D.
 	duyệt qua toàn bộ mảng tính tổng các giá trị của mảng lưu vào biến avg. 
 - lấy biến avg chia cho tổng phần tử của mảng. 
 - Duyệt qua toàn bộ mảng nếu phần tử nào lớn hơn avg thì gán = 0. Ngược lại giữ nguyên. 
- ![code](https://github.com/Minglee2018/JavaSubjects/blob/master/image/2.png)
+
+ ![alt text](https://github.com/Minglee2018/JavaSubjects/blob/master/image/2.png?raw=true)
 
 Bài 3: 
  Ý tưởng : chọn các phần tử của mảng ban đầu sao cho tổng chúng bằng M cho trước. 
@@ -25,7 +26,7 @@ khởi tạo rows = 5 và cols = 5, M = 100;
 khởi tạo 2 mảng: 
 	- mảng arr2D là mảng sinh ngẫu nhiên các giá trị từ 0->100.
 	- mảng markArrays mảng chứa các phần tử 0 có cùng kích thước với mảng arr2D	
- ![](image/3.1.png)
+ ![alt text](https://github.com/Minglee2018/JavaSubjects/blob/master/image/3.1.png?raw=true)
 Thực thi chương trình hàm solve.
 để cho đơn giản sẽ khởi tạo các biến trên là biến toàn cục (truy cập trong phạm vi toàn class). 
  ![](image/3.2.png)
