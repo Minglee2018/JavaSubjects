@@ -4,14 +4,20 @@
 3. hope you like it. If you have any problem lets pull issues for me. Thank you!. 
 # Example
 ⦁	Bài 1: bỏ.
+
 ⦁ 	Bài 2:  lọc ra các phần tử của mảng mà có giá trị nhỏ hơn giá trị trung bình của nó (lọc thông thấp trong xử lý ảnh)
+
 ⦁	Bài 3: cho mảng 2 chiều với kích thước m, n bất kì. Tìm tập hợp của tất cả các mảng 2 chiều từ mảng ban đầu mà có tổng giá trị bằng 1 giá trị m nào đó cho trước
+
 ⦁	Bài 4: cho 1 mảng bất kì hãy sắp xếp tại 1 cột nào đó theo thứ tự tăng dần hoặc giảm dần nhưng phải đảm bảo tịnh tiến giá trị theo dòng tương ứng. 
+
 ⦁	Bài 5: cho một chuỗi string nhập từ bàn phím, in ra n số lượng từ trong chuỗi nhập vào, với n nhập từ bàn phím. Nếu n nhỏ hơn số từ trong chuỗi thì in thêm "....". 
+
 ⦁	Bài 6: nhập vào một chuỗi các từ cách nhau bởi dấu '#' thống kê các từ có trong chuỗi. 
 
 
 # Bài 2. 
+### giải thích code
 Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D. 
 - phần code chỗ implement programs: 
 	duyệt qua toàn bộ mảng tính tổng các giá trị của mảng lưu vào biến avg. 
@@ -21,9 +27,10 @@ Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D.
 ![alt text](image/2.png)
 
 # Bài 3. 
- Ý tưởng : chọn các phần tử của mảng ban đầu sao cho tổng chúng bằng M cho trước. 
+ ### Ý tưởng:
+chọn các phần tử của mảng ban đầu sao cho tổng chúng bằng M cho trước. 
 Dùng thuật toán quay lui thử tất cả trường hợp. 
-Giải thích code:  
+### Giải thích code:  
 khởi tạo rows = 5 và cols = 5, M = 100; 
 khởi tạo 2 mảng: 
 	- mảng arr2D là mảng sinh ngẫu nhiên các giá trị từ 0->100.
@@ -54,10 +61,11 @@ Nếu có nhiều cách sẽ in ra tất cả số cách có thể có :
 Nếu không có trường hợp nào thỏa mãn thì output sẽ in ra. 
  ![](image/3.8.png)
 # Bài 4. 
-Ý tưởng : tìm ra cột cần sort lưu riêng ra 2 mảng giá trị và mảng index. 
+### Ý tưởng. 
+tìm ra cột cần sort lưu riêng ra 2 mảng giá trị và mảng index. 
 trong quá trình sort sẽ sort cả giá trị và index. 
 sau đó từ mảng index lấy ra các hàng tương ứng lưu vào một ma trận mới. 
-Giải thích code: 
+### Giải thích code.
 number_of_sort_col: là cột cần sắp xếp. 
 Arr: là mảng data input. 
 arr: là mảng chứa cột cần sắp xếp. 
@@ -69,13 +77,14 @@ arr2D: là mảng output.
 ![](image/4.png)
  
 # Bài 5. 
-Ý tưởng + giải thích code: 
+### Ý tưởng + giải thích code: 
 Chuẩn hóa chuỗi nhập vào. Đếm dấu cách chính là đếm số từ hiện có. Nếu số từ cần đếm bằng với số n thì ko lấy nữa. 
 Nếu trong chuỗi vẫn còn từ thì gán biến oke=True. Kiểm tra biến oke=True thì cộng thêm phần "....". Ngược lại thì ko làm gì cả. 
  ![](image/5.png)
 # Bài 6. 
-Ý tưởng: tạo ra một cái dictionary rồi lưu key là từ trong chuỗi còn value là số lần lặp lại, rồi sau đó in ra. 
-Giải thích code:
+### Ý tưởng: 
+tạo ra một cái dictionary rồi lưu key là từ trong chuỗi còn value là số lần lặp lại, rồi sau đó in ra. 
+### Giải thích code:
 - cộng vào đầu và cuối chuỗi dấu '#' đảm bảo ko bị miss từ đầu cuối. 
 - duyệt qua toàn bộ chuỗi tạo biến tmp lưu tạm thời. 
 	+ nếu không gặp dấu # thì cứ cộng chuỗi
