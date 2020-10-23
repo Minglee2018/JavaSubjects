@@ -1,6 +1,6 @@
 # Introduction. 
 1. You must install git base for win, ubuntu or macos you used. 
-2. Open your GIT Bash terminal then type " git clone https://github.com/Minglee2018/JavaSubjects.git ".
+2. Open your GIT Bash terminal then type " git clone https://github.com/Minglee2018/JavaSubjects.git "
  + If you don't have GIT Bash you can download [Here]( https://gitforwindows.org/)
 then follow  [Tutorial](https://www.atlassian.com/git/tutorials/install-git)
 3. hope you like it. If you have any problem lets pull issues for me. Thank you!. 
@@ -18,7 +18,9 @@ Bài 5: cho một chuỗi string nhập từ bàn phím, in ra n số lượng t
 
 Bài 6: nhập vào một chuỗi các từ cách nhau bởi dấu '#' thống kê các từ có trong chuỗi. 
 
-# Bài 2. 
+# explanation
+
+## Bài 2. 
 ### Ý tưởng. 
 Cộng tất cả phần tử của mảng rồi chia cho rows*cols tính được phần tử TB, phần tử nào lớn hơn or bằng phần tử TB thì gán = 0.
 ### giải thích code
@@ -28,7 +30,7 @@ Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D.
 - Duyệt qua toàn bộ mảng nếu phần tử nào lớn hơn avg thì gán = 0. Ngược lại giữ nguyên. 
 ![alt text](images/2.png)
 
-# Bài 3. 
+## Bài 3. 
 ### Ý tưởng:
  - Dùng thuật toán đệ quy quay lui để thử tất cả trường hợp, sau đó Chọn các phần tử của mảng ban đầu sao cho tổng chúng bằng M cho trước. 
 ### Giải thích code:  
@@ -65,7 +67,7 @@ Khởi tạo rows và cols, sinh ngẫu nhiên ra mảng 2D.
 - Nếu không có trường hợp nào thỏa mãn thì output sẽ in ra. 
 
 ![alt text](images/3.8.png)
-# Bài 4. 
+## Bài 4. 
 ### Ý tưởng. 
 - Tìm ra cột cần sort lưu riêng ra 2 mảng giá trị và mảng index. 
 - Trong quá trình sort sẽ sort cả giá trị và index. 
@@ -86,14 +88,14 @@ arr2D: là mảng output.
 - lưu mảng mới theo giá trị mảng vị trí đã sắp xếp. 
 ![image code](images/4.png)
  
-# Bài 5. 
+## Bài 5. 
 ### Ý tưởng.
  - Chuẩn hóa chuỗi rồi duyệt từ đầu đến cuối đếm dấu cách theo n ( n là số word cần lấy ).
 ### Giải thích code.
 - Chuẩn hóa chuỗi nhập vào. Đếm dấu cách chính là đếm số từ hiện có. Nếu số từ cần đếm bằng với số n thì ko lấy nữa. 
 - Nếu trong chuỗi vẫn còn từ thì gán biến oke=True. Kiểm tra biến oke=True thì cộng thêm phần "....". Ngược lại thì ko làm gì cả. 
  ![image code](images/5.png)
-# Bài 6. 
+## Bài 6. 
 ### Ý tưởng. 
 - Sử dụng dictionary của Java để xử lý bài toán. Với KEY là word và VALUE là số lần lặp lại của word đó.
 ### Giải thích code.
