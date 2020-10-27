@@ -7,7 +7,10 @@ public class string_bai6 {
 
 		str +='#'; 
 		str = '#' + str; 
-		 String tmp = "";
+		String tmp = "";
+		while(str.indexOf(" ")!=-1) {
+			str = str.replace(" ",""); 
+		}
 		 for (int i = 0; i < str.length(); i++ ) { 
 			 if(str.charAt(i)!='#') tmp += str.charAt(i);  
 			 else 
@@ -31,7 +34,7 @@ public class string_bai6 {
 	      } 		 
 	}
 	public static void main(String[] args) {
-		String str = "aaa#aaa#aaa#a#a#ab#ab#ab#b#jkj3ss"; 
+		String str = "aaa#  aaa #aaa #a#a#ab#ab#ab#b#jkj3ss   "; 
 		string_bai6.statisticWord(str);
 		
 	}
