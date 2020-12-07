@@ -1,0 +1,8 @@
+DANH SACH SINH VIEN
+| STT || HO TEN | 
+1 A
+2 B
+3 C
+4 D
+5 E
+Tong so: 5
